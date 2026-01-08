@@ -1,0 +1,64 @@
+#works {
+    min-height: 100vh;
+    width: 100vw;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.workstitle {
+    margin: 1rem 0;
+    font-size: 3rem;
+
+}
+
+.worksdesc {
+    font-weight: 300;
+    font-size: 1rem;
+    max-width: 42rem;
+
+}
+
+.worksimgs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    max-width: 80rem;
+    flex-wrap: wrap;
+}
+
+.worksimg {
+    object-fit: cover;
+    height: 20rem;
+    margin: 0.5rem;
+    width: 30rem;
+
+}
+
+.worksbtn {
+    padding: 0.5rem 2.5rem;
+    margin: 3rem auto;
+    border: none;
+    background: white;
+    border-radius: 2rem;
+    font-size: 1rem;
+}
+
+@media screen and (max-width:600px) {
+    .worksimg {
+        height: 40vw;
+    }
+
+}
+#workdesc{
+    font-weight: 300;
+    font-size: 1rem;
+    max-width: 42rem;
+
+}
